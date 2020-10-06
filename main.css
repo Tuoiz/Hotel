@@ -1,0 +1,664 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.4;
+  font-family: 'Noto Sans', sans-serif; }
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  background: #333; }
+  .first #logo {
+    padding: 1rem 0 1rem 4rem;
+    color: #fff; }
+  .first ul {
+    list-style-type: none;
+    padding: 1rem 2rem 1rem 0; }
+    .first ul li {
+      display: inline-block; }
+      .first ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1.3rem 2rem; }
+        .first ul li a:hover {
+          background: #595959;
+          color: #ffb380; }
+
+.second {
+  background: url(showcase.jpg) no-repeat center center/cover; }
+  .second h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 10rem;
+    color: #fff; }
+    .second h2 span {
+      color: #ffb380; }
+  .second p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    color: #fff; }
+  .second div {
+    text-align: center;
+    padding: 2rem 0rem 11rem 0rem; }
+    .second div a {
+      display: inline-block;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem; }
+      .second div a:hover {
+        background: #ffb380;
+        color: #333; }
+
+.third {
+  display: flex; }
+  .third img {
+    width: 50%;
+    object-fit: cover; }
+  .third aside {
+    width: 50%;
+    background: #333;
+    text-align: center; }
+    .third aside h3 {
+      color: #fff;
+      text-align: center;
+      padding-top: 3rem;
+      font-size: 2rem; }
+      .third aside h3 span {
+        color: #ffb380; }
+    .third aside p {
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1rem 0rem 1rem;
+      font-size: 1.1rem; }
+    .third aside div {
+      text-align: center;
+      padding: 3rem 0rem 11rem 0rem; }
+      .third aside div a {
+        display: inline-block;
+        padding: 1rem;
+        background: #fff;
+        color: #333;
+        text-decoration: none;
+        font-size: 1.2rem; }
+        .third aside div a:hover {
+          background: #ffb380; }
+
+.fourth {
+  display: flex;
+  padding: 2rem 3rem 0 3rem;
+  background: #f2f2f2; }
+  .fourth div {
+    width: 50%;
+    padding-right: 3rem;
+    text-align: left; }
+    .fourth div h1 {
+      color: #333;
+      font-size: 2.5rem;
+      font-weight: bold; }
+      .fourth div h1 span {
+        color: #ffb380; }
+    .fourth div p {
+      padding-top: 2rem;
+      font-size: 1.3rem; }
+  .fourth img {
+    width: 35%;
+    object-fit: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding-left: 2rem;
+    padding-bottom: 2rem; }
+
+.fifth {
+  background: url(test-bg.jpg) no-repeat center center/cover; }
+  .fifth h2 {
+    text-align: center;
+    padding-top: 3rem;
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: bold; }
+  .fifth div {
+    display: flex;
+    background-color: #ffb380;
+    opacity: 0.8;
+    width: 80vw;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 1.2rem; }
+    .fifth div img {
+      width: 8rem;
+      border-radius: 50%;
+      padding: 1rem; }
+    .fifth div p {
+      text-align: left;
+      padding: 2rem; }
+
+footer {
+  background: #333;
+  color: #fff; }
+  footer h3 {
+    text-align: center;
+    padding: 2rem 0rem;
+    font-size: 1rem; }
+
+.sixth {
+  text-align: left;
+  padding: 1.5rem 9rem 2rem; }
+  .sixth h2 {
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: bolder; }
+    .sixth h2 span {
+      color: #ffb380; }
+  .sixth h3 {
+    padding: 1.2rem 0 1rem; }
+  .sixth form h4 {
+    padding-top: .5rem; }
+  .sixth form input {
+    width: 100%;
+    padding: .5rem;
+    outline-color: #ffb380; }
+  .sixth form textarea {
+    padding: .5rem;
+    width: 100%;
+    outline-color: #ffb380; }
+  .sixth input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; }
+    .sixth input[type="submit"]:hover {
+      background: #ffb380;
+      color: #fff; }
+
+.seventh {
+  display: flex; }
+  .seventh div {
+    background: #ffb380; }
+    .seventh div h5 {
+      text-align: center;
+      padding-top: 1rem;
+      font-size: 1.4rem; }
+    .seventh div .fas {
+      font-size: 2rem;
+      text-align: center;
+      width: 100%;
+      padding-top: 1rem; }
+    .seventh div p {
+      padding: 2rem 3rem 3.5rem;
+      text-align: center;
+      font-size: 1.2rem; }
+  .seventh #coral {
+    background: #fff; }
+
+.eight {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: rgba(33, 33, 33, 0.9);
+  border-bottom: 0.2rem solid #ffb380;
+  color: #fff; }
+  .eight div h5 {
+    padding: 1.5rem 0 1.7rem;
+    font-size: 1.2rem; }
+  .eight div .fas {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem; }
+  .eight div address {
+    text-align: center;
+    font-size: 1.1rem; }
+  .eight div a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer; }
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: calc(1vw + 0.6rem); }
+  .first {
+    display: flex;
+    justify-content: space-between; }
+    .first #logo {
+      display: none; }
+    .first ul li a {
+      font-size: 1.2rem;
+      padding: 1.18rem 1rem; }
+  .second h2 {
+    padding-top: 5rem;
+    font-size: 2rem; }
+  .second p {
+    padding: 1rem;
+    font-size: 1.2rem; }
+  .second div {
+    padding: 2rem 0rem 5rem 0rem; }
+    .second div a {
+      font-size: 1.2rem;
+      padding: 3px; }
+  .third {
+    display: block; }
+    .third img {
+      width: 100%; }
+    .third aside {
+      width: 100%; }
+      .third aside h3 {
+        font-size: 1,4rem;
+        padding: 2rem; }
+      .third aside p {
+        font-size: 1.2rem;
+        padding: 2rem 2rem; }
+      .third aside div {
+        padding-bottom: 1rem;
+        padding-top: 1rem; }
+        .third aside div a {
+          font-size: 1.2rem;
+          padding: 3px; }
+  .seventh {
+    display: block; }
+  .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; }
+    .fourth div {
+      padding: 1rem 0rem;
+      width: 100vw;
+      text-align: center; }
+      .fourth div h1 {
+        padding: 1.5rem 0;
+        font-size: 1.6rem; }
+      .fourth div p {
+        padding: 1.5rem;
+        text-align: center;
+        font-size: 1rem; }
+    .fourth img {
+      width: 90%;
+      padding: 1.5rem; }
+  .fifth {
+    display: block; }
+    .fifth h2 {
+      font-size: 1.4rem;
+      text-align: center; }
+    .fifth div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%; }
+      .fifth div img {
+        width: 70%; }
+      .fifth div p {
+        text-align: center; }
+  .sixth {
+    padding: 1.5rem 1rem 2rem; }
+    .sixth h2 {
+      text-align: center;
+      font-size: 1.4rem; }
+    .sixth h3 {
+      text-align: center; }
+    .sixth form {
+      padding: 1.5rem;
+      width: 100%; }
+      .sixth form h4 {
+        font-size: 1.4rem; }
+      .sixth form input, .sixth form textarea {
+        font-size: 1.3rem;
+        width: 100; }
+      .sixth form input[type="submit"] {
+        font-size: 1rem; }
+  .eight {
+    display: block; }
+    .eight div {
+      border-bottom: 0.2rem solid #ffb380; } }
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: calc(1vw + 0.5rem); }
+  .first {
+    display: flex;
+    justify-content: space-between; }
+    .first #logo {
+      display: none; }
+    .first ul li a {
+      font-size: 1.2rem;
+      padding: 1.18rem 1rem; }
+  .second h2 {
+    padding-top: 5rem;
+    font-size: 2rem; }
+  .second p {
+    padding: 1rem;
+    font-size: 1.2rem; }
+  .second div {
+    padding: 2rem 0rem 5rem 0rem; }
+    .second div a {
+      font-size: 1.2rem;
+      padding: 3px; }
+  .third {
+    display: block; }
+    .third img {
+      width: 100%; }
+    .third aside {
+      width: 100%; }
+      .third aside h3 {
+        font-size: 1,4rem;
+        padding: 2rem; }
+      .third aside p {
+        font-size: 1.2rem;
+        padding: 2rem 2rem; }
+      .third aside div {
+        padding-bottom: 1rem;
+        padding-top: 1rem; }
+        .third aside div a {
+          font-size: 1.2rem;
+          padding: 3px; }
+  .seventh {
+    display: block; }
+  .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; }
+    .fourth div {
+      padding: 1rem 0rem;
+      width: 100vw;
+      text-align: center; }
+      .fourth div h1 {
+        padding: 1.5rem 0;
+        font-size: 1.6rem; }
+      .fourth div p {
+        padding: 1.5rem;
+        text-align: center;
+        font-size: 1rem; }
+    .fourth img {
+      width: 70%;
+      padding: 1.5rem; }
+  .sixth h2 {
+    text-align: center; }
+  .sixth h3 {
+    font-size: 1.4rem;
+    text-align: center; }
+  .sixth form h4 {
+    font-size: 1.3rem; }
+  .sixth form input, .sixth form textarea {
+    font-size: 1.3rem; }
+  .fifth {
+    display: block; }
+    .fifth h2 {
+      font-size: 1.4rem;
+      text-align: center; }
+    .fifth div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%; }
+      .fifth div img {
+        width: 40%; }
+      .fifth div p {
+        text-align: center; } }
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: calc(1vw + 0.7rem); }
+  .first {
+    display: flex;
+    justify-content: space-between; }
+    .first #logo {
+      display: none; }
+    .first ul li a {
+      font-size: 1.2rem;
+      padding: 1.18rem 1rem; }
+  .second h2 {
+    padding-top: 5rem;
+    font-size: 2rem; }
+  .second p {
+    padding: 1rem;
+    font-size: 1.2rem; }
+  .second div {
+    padding: 2rem 0rem 5rem 0rem; }
+    .second div a {
+      font-size: 1.2rem;
+      padding: 3px; }
+  .third {
+    display: block; }
+    .third img {
+      width: 100%; }
+    .third aside {
+      width: 100%; }
+      .third aside h3 {
+        font-size: 1,4rem;
+        padding: 2rem; }
+      .third aside p {
+        font-size: 1.2rem;
+        padding: 2rem 2rem; }
+      .third aside div {
+        padding-bottom: 1rem;
+        padding-top: 1rem; }
+        .third aside div a {
+          font-size: 1.2rem;
+          padding: 3px; }
+  .seventh {
+    display: block; }
+  .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; }
+    .fourth div {
+      padding: 1rem 0rem;
+      width: 100vw;
+      text-align: center; }
+      .fourth div h1 {
+        padding: 1.5rem 0;
+        font-size: 1.6rem; }
+      .fourth div p {
+        padding: 1.5rem;
+        text-align: center;
+        font-size: 1rem; }
+    .fourth img {
+      width: 70%;
+      padding: 1.5rem; }
+  .fifth {
+    display: block; }
+    .fifth h2 {
+      font-size: 1.4rem;
+      text-align: center; }
+    .fifth div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%; }
+      .fifth div img {
+        width: 40%; }
+      .fifth div p {
+        text-align: center; } }
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: calc(1vw + 0.91rem); }
+  .first {
+    display: flex;
+    justify-content: space-between;
+    background: #333; }
+    .first #logo {
+      padding: 1rem 0 1rem 4rem;
+      color: #fff; }
+    .first ul {
+      list-style-type: none;
+      padding: 1rem 2rem 1rem 0; }
+      .first ul li {
+        display: inline-block; }
+        .first ul li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1rem;
+          padding: 1.3rem 2rem; }
+          .first ul li a:hover {
+            background: #595959;
+            color: #ffb380; }
+  .second {
+    background: url(showcase.jpg) no-repeat center center/cover; }
+    .second h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      padding-top: 10rem;
+      color: #fff; }
+      .second h2 span {
+        color: #ffb380; }
+    .second p {
+      text-align: center;
+      font-size: 1rem;
+      padding-top: 1.5rem;
+      color: #fff; }
+    .second div {
+      text-align: center;
+      padding: 2rem 0rem 11rem 0rem; }
+      .second div a {
+        display: inline-block;
+        padding: 1rem;
+        background: #333;
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.9rem; }
+        .second div a:hover {
+          background: #ffb380;
+          color: #333; }
+  .third {
+    display: flex; }
+    .third img {
+      width: 50%;
+      object-fit: cover; }
+    .third aside {
+      width: 50%;
+      background: #333;
+      text-align: center; }
+      .third aside h3 {
+        font-size: 1.6rem; }
+      .third aside p {
+        font-size: 0.8rem; }
+      .third aside div a {
+        padding: 0.5rem; }
+  .fourth {
+    display: flex;
+    flex-direction: row; }
+    .fourth div {
+      width: 100%; }
+      .fourth div h1 {
+        font-size: 1.6rem; }
+      .fourth div p {
+        font-size: 1rem; }
+    .fourth img {
+      width: 40%; }
+  .fifth {
+    background: url(test-bg.jpg) no-repeat center center/cover; }
+    .fifth h2 {
+      font-size: 1.3rem; }
+    .fifth div {
+      display: flex;
+      flex-direction: row;
+      padding: 1rem; }
+      .fifth div img {
+        width: 25%;
+        padding-left: 1rem; }
+      .fifth div p {
+        font-size: 0.8rem; }
+  .sixth {
+    padding: 1rem; }
+    .sixth h2 {
+      text-align: center;
+      font-size: 1.4rem; }
+    .sixth h3 {
+      font-size: 0.9rem;
+      text-align: center; }
+    .sixth form {
+      width: 100%;
+      padding: 1rem; }
+      .sixth form h4 {
+        font-size: 0.8rem; }
+      .sixth form input {
+        font-size: 0.8rem; }
+      .sixth form textarea {
+        font-size: 0.8rem; }
+      .sixth form input[type="submit"] {
+        font-size: 0.8rem; }
+  .seventh {
+    display: flex;
+    flex-direction: row; }
+    .seventh div h5 {
+      font-size: 1.2rem; }
+    .seventh div p {
+      font-size: 1rem; }
+  .eight {
+    display: flex;
+    flex-direction: row; }
+    .eight div h5 {
+      font-size: 0.8rem; }
+    .eight div address, .eight div a {
+      font-size: 0.8rem; }
+  footer h3 {
+    font-size: 0.8rem; } }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: calc(1vw + 0.1rem); }
+  .second p {
+    font-size: 1.4rem; }
+  .third {
+    display: flex; }
+    .third img {
+      width: 50%; }
+    .third aside p {
+      font-size: 1.2rem; }
+    .third aside div a {
+      padding: 1rem; }
+  .fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .fourth div {
+      width: 50%; }
+      .fourth div h1 {
+        font-size: 1.8rem; }
+      .fourth div p {
+        font-size: 1.3rem;
+        padding-left: 3rem; }
+    .fourth img {
+      width: 30%; }
+  .sixth h2 {
+    font-size: 1.7rem; }
+  .sixth h3 {
+    font-size: 1.2rem; }
+  .sixth form h4 {
+    font-size: 1.2rem; }
+  .sixth form input, .sixth form textarea {
+    font-size: 1.4rem; }
+  .fifth {
+    background: url(test-bg.jpg) no-repeat center center/cover; }
+    .fifth h2 {
+      font-size: 2rem; }
+    .fifth div {
+      display: flex;
+      flex-direction: row; }
+      .fifth div img {
+        width: 15%; }
+      .fifth div p {
+        font-size: 1.3rem;
+        text-align: justify; }
+  .seventh {
+    display: flex; }
+    .seventh div h5 {
+      font-size: 1.4rem; }
+    .seventh div p {
+      font-size: 1.1rem; }
+  footer h3 {
+    font-size: 1.1rem; } }
